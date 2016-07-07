@@ -26,3 +26,13 @@ console.log(wordCount('hey you what am ai doing aoiewnfa'))
 // Write a function called primeTime that takes a single number parameter and returns true if the parameter is a prime number, otherwise false. 
 // The range will be between 1 and 216.*/
 
+function primeTime(number) {
+    
+    for (var i=1; i <=216; i++) {
+        if (number%i===0 && i!==1 &&i!==number) {
+            return false
+        } return true
+    }
+}
+
+console.log(primeTime(23))
